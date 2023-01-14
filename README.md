@@ -10,3 +10,15 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212479049-cca39ed7-6d0f-4345-9359-4b62fed96735.jpg)
 
+- Correlation matrix를 바탕으로 심장질환과 연관성이 높은 feature들을 파악
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212479602-80ecf43e-7125-4a54-9b9b-36f3b15bf40f.jpg)
+
+- EDA를 통해 feature들에서 다음과 같은 특징을 확인
+1. Smoking (흡연 유무) 
+심장질환이 발병된 사람 중 58.6 %가 흡연, 심장질환이 없지만 흡연하는 사람은 5.5%
+
+2. Diffwalking(계단을 오를 때 어려움을 느끼는 유므)
+심장질환이 발병된 사람 중 Diffwalking이 True인 사람은 36.6%
+
+3. Diabetic (당뇨 유무)
+심장질환이 발병된 사람 중 Diabetic이 True인 사람은 32.7%
