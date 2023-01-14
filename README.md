@@ -8,3 +8,5 @@
 - 미국질병통제예방센터에서 제작 (CDC, Centers for Disease Control and Prevention)
 https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212479049-cca39ed7-6d0f-4345-9359-4b62fed96735.jpg)
+
