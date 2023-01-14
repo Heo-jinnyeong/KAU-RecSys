@@ -22,3 +22,13 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 
 3. Diabetic (당뇨 유무)
 심장질환이 발병된 사람 중 Diabetic이 True인 사람은 32.7%
+
+4. PhysicalActivity (최근 30일 중 육체적인 운동 유무)
+심장질환이 True인 사람 중 63.9%가 False로 응답
+
+5. 연령이 높아질수록 심장질환 환자수가 증가
+
+
+## Tssk
+- Feature들을 바탕으로 Binary Classification task를 수행
+- 이후 Softmax 함수를 통해 최종 label이 나온 확률을 추출하여 이를 바탕으로 발병 가능성을 낮추는 활동 추천
