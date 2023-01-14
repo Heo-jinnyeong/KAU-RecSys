@@ -4,5 +4,7 @@
 심장질환 예방을 위한 추천시스템 (2022.04 ~ 2022.06) / 
 
 ## Data 
-Source - 미국질병통제예방센터 (CDC, Centers for Disease Control and Prevention)
+- 319.7k 명의 17가지 feature들에 대한 정보로 구성
+- 미국질병통제예방센터에서 제작 (CDC, Centers for Disease Control and Prevention)
 https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
+
