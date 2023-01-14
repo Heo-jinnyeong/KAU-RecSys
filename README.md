@@ -30,5 +30,5 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 
 
 ## Tssk
-- Feature들을 바탕으로 Binary Classification task를 수행
-- 이후 Softmax 함수를 통해 최종 label이 나온 확률을 추출하여 이를 바탕으로 발병 가능성을 낮추는 활동 추천
+- Feature들을 바탕으로 Binary Classification Task를 수행
+- 이후 Softmax 함수를 통해 최종 label이 나온 확률을 추출하여 이를 바탕으로 Softmax 값(발병 확률)을 낮추는 활동 추천
