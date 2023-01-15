@@ -80,8 +80,19 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546668-7bd0b204-fc86-461b-857a-5c43eaa61c6d.jpg)
 
 
+## Conclusion
+- EDA와 Correlation Matrix를 통해 얻은 Feature들로 심장질환 발병 가능성을 낮추는 활동 추천이 가능함을 도출
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546899-da6a9af6-8998-4fd8-a138-2a4360a87463.jpg)
 
+## Limitation
+- 발병 유무의 불균형과 인종에 대한 불균형으로 성능을 일반화하기에는 한계가 존재
+- 추후 불균형 해소를 위한 데이터 수집이 필요
 
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212547065-f19298a4-305f-4cb7-bb70-549299b6ba92.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212547084-f2975be4-139f-4012-a5b0-a2d1ea47f62d.jpg)
+
+reference
+Data - https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 
 
 
