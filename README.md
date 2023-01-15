@@ -58,6 +58,6 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 - 학습 결과 중 가장 높은 정확도를 보인 Weight를 저장 후, 출력값에 Softmax 함수를 적용시켜 발병 가능성을 추출
 - 발병 가능성을 확인 후, 어떤 Input (Feature)를 조절하면 발병 가능성이 줄어드는지 확인
 
-![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212544613-4915c8bf-a5ba-48b3-82e2-d005bb4b2079.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212544613-4915c8bf-a5ba-48b3-82e2-d005bb4b2079.jpg){: width="100" height="100"}
 
 
