@@ -45,4 +45,9 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 - 아래 이미지에서 확인 가능하듯이 이상치가 많으며, 이를 수치화하기 어려움
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212541380-61993d03-1472-4c1d-ab6b-aafcfde57f5a.jpg)
 
+- SVM (Support Vector Machine), K-NN (K-Nearest Neighbor)을 진행하였지만, 유의미한 결과를 얻지 못함
+
+## Custom Model (Fully Connected Network)
+################################## Batch Normalization에 대해서는 다시 서술할 필요 있음 ##################################
+
 
