@@ -29,10 +29,20 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 5. 연령이 높아질수록 심장질환 환자수가 증가
 
 
-## Tssk
+## Task
 - Feature들을 바탕으로 Binary Classification Task를 수행
 - 이후 Softmax 함수를 통해 최종 출력값이 나오게 된 확률을 추출 
 - 이를 바탕으로 Softmax 값(발병 확률)을 낮추는 활동 추천
 
 
-## 
+## t-SNE
+- t-SNE를 활용하여 고차원 데이터를 시각화
+- 데이터가 어떠한 기준으로 군집을 이루고 있음을 확인
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212541192-d82767f7-b64c-4f58-b12d-531c2b2f6f0c.jpg)
+
+## Logistic Regression
+- 선형회귀를 이용하여 발병 가능성 수치화 시도
+- 아래 이미지에서 확인 가능하듯이 이상치가 많으며, 이를 수치화하기 어려움
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212541380-61993d03-1472-4c1d-ab6b-aafcfde57f5a.jpg)
+
+
