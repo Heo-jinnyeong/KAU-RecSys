@@ -48,6 +48,11 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 - SVM (Support Vector Machine), K-NN (K-Nearest Neighbor)을 진행하였지만, 유의미한 결과를 얻지 못함
 
 ## Custom Model (Fully Connected Network)
-################################## Batch Normalization에 대해서는 다시 서술할 필요 있음 ##################################
+- FC Layer와 ReLU로 이뤄진 모델로 실험을 진행
+- 당시에는 Batch Normalizatiokn에 대한 이해도 낮아 비교 실험 대상으로 FC Layer + Batch Normalization + ReLU 구조의 모델을 선택
+(Batch Normalization을 적용하면 배치별로 정규화가 적용되는데, 정규화된 값에 ReLU를 적용하면 데이터의 절반인 0 이하의 값은 손실되는 문제가 발생)
+- 모델은 12개의 Hidden Layer와 ReLU가 적용된 단순한 구조
+- Weight 값의 초기화를 위해 Xavier와 Kaiming 초기화를 사용
 
-
+## Application for RecSys
+- 최종 출력이 나오기 전 
