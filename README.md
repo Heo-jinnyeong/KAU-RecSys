@@ -39,7 +39,7 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 ## t-SNE
 - t-SNE를 활용하여 고차원 데이터를 시각화
 - 데이터가 어떠한 기준으로 군집을 이루고 있는지 확인
-![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212547411-b6cfd810-9333-4162-a523-235c2949fc1b.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212548584-4bfd87c9-af0f-440b-b64c-26868a706f1b.jpg)
 
   
 ## Logistic Regression
