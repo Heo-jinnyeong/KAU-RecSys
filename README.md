@@ -55,11 +55,33 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 - Weight 값의 초기화를 위해 Xavier와 Kaiming 초기화를 사용
 
 ## Application for RecSys
-- 학습 결과 중 가장 높은 정확도를 보인 Weight를 저장 후, 출력값에 Softmax 함수를 적용시켜 발병 가능성을 추출
+- 학습 결과 중 가장 높은 정확도를 보인 Weight를 저장 후, 이를 적용시킨 모델의 출력값에 Softmax 함수를 적용시켜 발병 가능성을 추출
 - 발병 가능성을 확인 후, 어떤 Input (Feature)를 조절하면 발병 가능성이 줄어드는지 확인
 
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212544613-4915c8bf-a5ba-48b3-82e2-d005bb4b2079.jpg)
 
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212545002-83c7a144-4bb9-4618-8b79-f7537d9f9619.jpg)
+
+- 심장질환이 있는 사람의 Softmax를 거친 결과와 그렇지 않은 사람의 결과를 비교해보면, 아래 그림처럼 유의미한 차이를 확인 가능
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212545853-9980fcdf-0ec9-4981-98c3-e2c9c3bd7598.jpg)
+
+- 임의로 1명을 선택하여 Correlation Matrix와 EDA 결과를 바탕으로 Key Feature라 할 수 있는 몇 개 Feature를 조절하여 발병 가능성의 변환을 관찰
+- Dataset에는 존재하지 않는 4명에 대해 설문조사를 실시 후, 발병 가능성이 가장 높은 1명의 Feature를 조절
+- EDA 결과에서 연령대가 높아질수록 발병 환자가 많기 때문에 20대에서는 다소 낮은 발병 가능성을 보이지만, 연령이 증가할수록 발병 가능성이 높아짐을 확인
+- 발병 가능성이 가장 높은 연령대로 고정시킨 후, 어떤 Feature를 조절해야 발병 가능성이 낮아짐을 확인
+
+
+
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546477-8715cc57-533a-4ce1-92aa-982fc9f9a318.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546524-b7bf2251-a685-4107-aecf-f8958dc5d672.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546622-6b5cc61c-df19-4f30-ba27-7eaa57336073.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546639-24c23476-5894-4efd-aea1-3a6d2d4957da.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546655-495a3e43-7405-4b4f-aa12-fe0c423a285c.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546668-7bd0b204-fc86-461b-857a-5c43eaa61c6d.jpg)
+
+
+
+
+
 
 
