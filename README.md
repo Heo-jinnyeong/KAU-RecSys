@@ -8,10 +8,11 @@
 - 미국질병통제예방센터에서 제작 (CDC, Centers for Disease Control and Prevention)
 https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 
-![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212479049-cca39ed7-6d0f-4345-9359-4b62fed96735.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212547373-4c82e802-ce7b-4d83-a7a5-1495045e795b.jpg)
 
 - Correlation matrix를 바탕으로 심장질환과 연관성이 높은 feature들을 파악
-![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212479602-80ecf43e-7125-4a54-9b9b-36f3b15bf40f.jpg)
+
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212547393-396ea1a0-1c62-4a53-9f72-f7cb59b03a8e.jpg)
 
 - EDA를 통해 feature들에서 다음과 같은 특징을 확인
 1. Smoking (흡연 유무) 
@@ -38,7 +39,7 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 ## t-SNE
 - t-SNE를 활용하여 고차원 데이터를 시각화
 - 데이터가 어떠한 기준으로 군집을 이루고 있음을 확인
-![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212541192-d82767f7-b64c-4f58-b12d-531c2b2f6f0c.jpg)
+![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212547411-b6cfd810-9333-4162-a523-235c2949fc1b.jpg)
 
 ## Logistic Regression
 - 선형회귀를 이용하여 발병 가능성 수치화 시도
@@ -81,7 +82,7 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 
 
 ## Conclusion
-- EDA와 Correlation Matrix를 통해 얻은 Feature들로 심장질환 발병 가능성을 낮추는 활동 추천이 가능함을 도출
+- EDA와 Correlation Matrix를 통해 얻은 Feature들로 심장질환 발병 가능성을 낮추는 활동 추천 가능함을 도출
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546899-da6a9af6-8998-4fd8-a138-2a4360a87463.jpg)
 
 ## Limitation
