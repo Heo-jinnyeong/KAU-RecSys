@@ -83,7 +83,7 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546668-7bd0b204-fc86-461b-857a-5c43eaa61c6d.jpg)
 
   
-## Conclusion
+## Conclusion 
 - EDA와 Correlation Matrix를 통해 얻은 Feature들로 심장질환 발병 확률을 낮추는 활동 추천 가능함을 도출
 ![Heart_disease_prediction_9조](https://user-images.githubusercontent.com/94584793/212546899-da6a9af6-8998-4fd8-a138-2a4360a87463.jpg)
 
